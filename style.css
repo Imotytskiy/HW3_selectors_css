@@ -1,0 +1,82 @@
+
+main{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-style:inset;
+    border-color:#333366;
+    text-decoration-color: #333366;
+    background-color: rgb(248, 250, 245);
+}
+section{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-style: inset;
+    background-color: rgb(248, 250, 245);
+    text-align: left;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+/* Домашнє завдання: створенно 10 будь-яких елементів із текстом на сторінці та кожному з них 
+призначено різний колір за допомогою різних селекторів. */
+
+/* 1 - універсальний селектор */
+* {
+    color:#003300;
+}
+/* 2 - селектор елементу*/
+h3 {
+    color:#000033;
+    
+}
+/* 3 - селектор через імя класу*/
+.text {
+    color:#330000;
+    
+}
+/* 4 - ідентифікатор */
+#word {
+    color:#333333;
+    
+}
+/* 5 - дочірній селектор застосовується тілька для елемента span */
+article > span {
+    color: #660000;
+}
+
+/* 6 - селектор атрибут елемента*/
+
+[href] {
+    color: #330033;
+}
+
+/* 7 - декілька класів до елементу */
+
+text.textfont {
+    font-size:larger;
+}
+
+/* 8 - сусідні селектори  для елемента p */
+
+div + p {
+    color:#333300;
+}
+
+/* 9 - значенння атрибуту починається із зазначеного тексту */
+
+a[href^="http"] {
+    color: #333366;
+}
+
+/* 10 - вкладений селектор span*/
+
+h3 span {
+   color:#006600;
+}
